@@ -57,7 +57,7 @@ con.on('open', () => {
 });
 
 const server = http.createServer(app);
-server.listen(port, '192.168.1.148');
+server.listen(port, '0.0.0.0');
 
 server.on('error', onError);
 server.on('listening', onListening);
