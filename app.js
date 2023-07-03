@@ -12,7 +12,7 @@ const http = require('http');
 const url = 'mongodb://localhost/local_node_user_registration';
 
 mongoose.connect(url, { useNewUrlParser: true });
-const port = normalizePort(process.env.PORT || '3000');
+const port = normalizePort('3000');
 const app = express();
 app.set('port', port);
 
