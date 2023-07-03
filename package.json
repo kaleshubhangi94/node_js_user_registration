@@ -1,0 +1,27 @@
+{
+  "name": "virusdatabase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "application nexus",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dot": "^1.1.3",
+    "dotenv": "^16.0.0",
+    "env": "^0.0.2",
+    "express": "^4.17.3",
+    "express-jwt": "^6.1.1",
+    "jade": "^1.11.0",
+    "jshint": "^2.13.4",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
